@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook]">
+  <test thread-count="5" name="FB Account(failed)">
+    <classes>
+      <class name="FBSignup">
+        <methods>
+          <include name="loginwrongtest" invocation-numbers="1 2"/>
+          <include name="Driverinit"/>
+          <include name="Driverclean"/>
+        </methods>
+      </class> <!-- FBSignup -->
+    </classes>
+  </test> <!-- FB Account(failed) -->
+</suite> <!-- Failed suite [Facebook] -->

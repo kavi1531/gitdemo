@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-08T11:07:23 PDT" name="Facebook" finished-at="2023-08-08T11:07:42 PDT" duration-ms="18138">
+    <groups>
+    </groups>
+    <test started-at="2023-08-08T11:07:23 PDT" name="FB Account" finished-at="2023-08-08T11:07:42 PDT" duration-ms="18138">
+      <class name="FBSignup">
+        <test-method is-config="true" signature="Driverinit()[pri:0, instance:FBSignup@37afeb11]" started-at="2023-08-08T11:07:23 PDT" name="Driverinit" finished-at="2023-08-08T11:07:35 PDT" duration-ms="11867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driverinit -->
+        <test-method signature="loginrighttest()[pri:0, instance:FBSignup@37afeb11]" started-at="2023-08-08T11:07:35 PDT" name="loginrighttest" finished-at="2023-08-08T11:07:41 PDT" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginrighttest -->
+        <test-method is-config="true" signature="Driverclean()[pri:0, instance:FBSignup@37afeb11]" started-at="2023-08-08T11:07:41 PDT" name="Driverclean" finished-at="2023-08-08T11:07:42 PDT" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driverclean -->
+      </class> <!-- FBSignup -->
+    </test> <!-- FB Account -->
+  </suite> <!-- Facebook -->
+</testng-results>

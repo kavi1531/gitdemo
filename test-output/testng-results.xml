@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-01T15:25:32 PDT" name="Facebook" finished-at="2023-08-01T15:25:58 PDT" duration-ms="26354">
+    <groups>
+    </groups>
+    <test started-at="2023-08-01T15:25:32 PDT" name="FB Account" finished-at="2023-08-01T15:25:58 PDT" duration-ms="26354">
+      <class name="FBSignup">
+        <test-method is-config="true" signature="Driverinit()[pri:0, instance:FBSignup@3c46e67a]" started-at="2023-08-01T15:25:32 PDT" name="Driverinit" finished-at="2023-08-01T15:25:48 PDT" duration-ms="16498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driverinit -->
+        <test-method signature="loginrighttest()[pri:0, instance:FBSignup@3c46e67a]" started-at="2023-08-01T15:25:48 PDT" name="loginrighttest" finished-at="2023-08-01T15:25:57 PDT" duration-ms="8603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginrighttest -->
+        <test-method is-config="true" signature="Driverclean()[pri:0, instance:FBSignup@3c46e67a]" started-at="2023-08-01T15:25:57 PDT" name="Driverclean" finished-at="2023-08-01T15:25:58 PDT" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driverclean -->
+      </class> <!-- FBSignup -->
+    </test> <!-- FB Account -->
+  </suite> <!-- Facebook -->
+</testng-results>
